@@ -5,23 +5,6 @@ This is a simple Pytest selenium project to verify the the jwll.online web site 
 2. In order to run this project, use 'pip install pytest, selenium' to install the required python libraries.
 3. Use 'curl www.jwll.online' to verify the sample web page
 C:\Users\CICD-Student\cicdclass\python>curl www.jwll.online
-<!DOCTYPE html>
-<html>
-<head>
-        <style>
-                h1{
-                        padding:5%;
-                        color:lightblue;
-                        text-align:center;
-                }
-        </style>
-</head>
-<body>
-<h1 >Welcome to jwll.online</h1>
-    <img src="jwllonline.png" alt="jwll.online logo Image" width="200" style="display:block; margin-left:auto; margin-right:auto;">
-
-</body>
-</html>
 
 4. Use 'pytest jwllpytest.py' to launch; here is sample of execution output log      
 C:\Users\CICD-Student\cicdclass\python>pytest jwllpytest.py
